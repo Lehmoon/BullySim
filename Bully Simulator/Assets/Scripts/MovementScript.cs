@@ -1,4 +1,6 @@
+using UnityEditor.SearchService;
 using UnityEngine;
+
 
 public class MovementScript : MonoBehaviour
 {
@@ -8,7 +10,7 @@ public class MovementScript : MonoBehaviour
     public float characterspeed = 12f;
 
     public float gravity = -9.81f;
-   
+
     Vector3 velocity;
 
     public Transform groundCheck;
@@ -16,10 +18,12 @@ public class MovementScript : MonoBehaviour
     public LayerMask groundMask;
     bool isGrounded;
 
+  
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -28,7 +32,7 @@ public class MovementScript : MonoBehaviour
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         if (isGrounded && velocity.y < 0)
         { velocity.y = -2f; }
-        
+
 
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
@@ -41,5 +45,8 @@ public class MovementScript : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
 
+
+        
+    
     }
 }
