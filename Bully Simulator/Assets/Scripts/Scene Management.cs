@@ -15,5 +15,7 @@ public class SceneManagement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
 
             SceneManager.LoadScene("Pause Menu");
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
     }
 }
