@@ -9992,7 +9992,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bookshelf (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2369477681845290900, guid: 4da9753826324df44a3b76655612376e, type: 3}
+    - {fileID: 3454997993727680128, guid: 4da9753826324df44a3b76655612376e, type: 3}
+    - {fileID: 250973046982001308, guid: 4da9753826324df44a3b76655612376e, type: 3}
+    - {fileID: 3086521077205490621, guid: 4da9753826324df44a3b76655612376e, type: 3}
+    - {fileID: 5784871701497707703, guid: 4da9753826324df44a3b76655612376e, type: 3}
+    - {fileID: 3529887503735780034, guid: 4da9753826324df44a3b76655612376e, type: 3}
+    - {fileID: 7672527348591836653, guid: 4da9753826324df44a3b76655612376e, type: 3}
+    - {fileID: 6011869710669676099, guid: 4da9753826324df44a3b76655612376e, type: 3}
+    - {fileID: 8399618718655953978, guid: 4da9753826324df44a3b76655612376e, type: 3}
+    - {fileID: 1587433199028035672, guid: 4da9753826324df44a3b76655612376e, type: 3}
+    - {fileID: 265822101900032579, guid: 4da9753826324df44a3b76655612376e, type: 3}
+    - {fileID: 4535087332326761323, guid: 4da9753826324df44a3b76655612376e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
