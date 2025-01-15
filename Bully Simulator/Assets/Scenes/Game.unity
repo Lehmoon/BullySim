@@ -6528,7 +6528,7 @@ PrefabInstance:
     - target: {fileID: -4683669308469848369, guid: fb39bc8be80c9444084e472af05db9a3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 2c3d86a99a1cc4dc4945fe54a5d7504d, type: 2}
+      objectReference: {fileID: 2100000, guid: 8b803020026144ab7a6e5d954fc4b05c, type: 2}
     - target: {fileID: 919132149155446097, guid: fb39bc8be80c9444084e472af05db9a3, type: 3}
       propertyPath: m_Name
       value: new school bus1
