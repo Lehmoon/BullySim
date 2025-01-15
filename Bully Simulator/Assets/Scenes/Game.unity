@@ -4961,64 +4961,6 @@ Transform:
   - {fileID: 1781680608}
   m_Father: {fileID: 943861620}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &535498531
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: a88de7e3358734129b4bd58e8e54f744, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 466.06555
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a88de7e3358734129b4bd58e8e54f744, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.013700545
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a88de7e3358734129b4bd58e8e54f744, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 430.00848
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a88de7e3358734129b4bd58e8e54f744, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a88de7e3358734129b4bd58e8e54f744, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a88de7e3358734129b4bd58e8e54f744, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a88de7e3358734129b4bd58e8e54f744, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a88de7e3358734129b4bd58e8e54f744, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a88de7e3358734129b4bd58e8e54f744, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a88de7e3358734129b4bd58e8e54f744, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: a88de7e3358734129b4bd58e8e54f744, type: 3}
-      propertyPath: m_Name
-      value: school bus 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: -516098083770646512, guid: a88de7e3358734129b4bd58e8e54f744, type: 3}
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a88de7e3358734129b4bd58e8e54f744, type: 3}
 --- !u!4 &582224128 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1878634856572907960, guid: 4da9753826324df44a3b76655612376e, type: 3}
@@ -10051,19 +9993,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bookshelf (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2369477681845290900, guid: 4da9753826324df44a3b76655612376e, type: 3}
-    - {fileID: 3454997993727680128, guid: 4da9753826324df44a3b76655612376e, type: 3}
-    - {fileID: 250973046982001308, guid: 4da9753826324df44a3b76655612376e, type: 3}
-    - {fileID: 3086521077205490621, guid: 4da9753826324df44a3b76655612376e, type: 3}
-    - {fileID: 5784871701497707703, guid: 4da9753826324df44a3b76655612376e, type: 3}
-    - {fileID: 3529887503735780034, guid: 4da9753826324df44a3b76655612376e, type: 3}
-    - {fileID: 7672527348591836653, guid: 4da9753826324df44a3b76655612376e, type: 3}
-    - {fileID: 6011869710669676099, guid: 4da9753826324df44a3b76655612376e, type: 3}
-    - {fileID: 8399618718655953978, guid: 4da9753826324df44a3b76655612376e, type: 3}
-    - {fileID: 1587433199028035672, guid: 4da9753826324df44a3b76655612376e, type: 3}
-    - {fileID: 265822101900032579, guid: 4da9753826324df44a3b76655612376e, type: 3}
-    - {fileID: 4535087332326761323, guid: 4da9753826324df44a3b76655612376e, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -21543,8 +21473,4 @@ SceneRoots:
   - {fileID: 1292611812}
   - {fileID: 702570441}
   - {fileID: 1190797044}
-<<<<<<< HEAD
   - {fileID: 1003649801}
-=======
-  - {fileID: 535498531}
->>>>>>> 487912b730b132c528031f592dd1bd3a4cc8589d
